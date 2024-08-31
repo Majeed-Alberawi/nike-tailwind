@@ -1,36 +1,39 @@
-import { arrowRight } from "../assets/icons";
+import { shoe8 } from "../assets/images";
 import Button from "../components/Button";
 
 const SuperQuality = () => {
   return (
     <section
       id="about-us"
-      className="flex justify-between items-center max-xl:flex-col-reverse gap-10 max-container"
+      className="flex justify-between items-center max-lg:flex-col gap-10 w-full max-container"
     >
       <div className="flex flex-1 flex-col">
-        <h2 className="text-4xl font-palanquin font-bold">
-          <span className="text-coral-red">Special </span>
-          Offer
+        <h2 className="font-palanquin capitalize text-4xl lg:max-w-lg font-bold">
+          We Provide You
+          <span className="text-coral-red"> Super </span>
+          <span className="text-coral-red">Quality </span> Shoes
         </h2>
-        <p className="mt-4 info-text">
-          Embark on a shopping journey that redefines your experience with
-          unbeatable deals. From premier selections to incredible savings, we
-          offer unparalleled value that sets us apart.
+        <p className="mt-4 lg:max-w-lg info-text">
+          Ensuring premium comfort and style, our meticulously crafted footwear
+          is designed to elevate your experience, providing you with unmatched
+          quality, innovation, and a touch of elegance.
         </p>
-        <p className="mt-6 info-text">
-          Navigate a realm of possibilities designed to fulfill your unique
-          desires, surpassing the loftiest expectations. Your journey with us is
-          nothing short of exceptional.
+        <p className="mt-6 lg:max-w-lg info-text">
+          Our dedication to detail and excellence ensures your satisfaction
         </p>
-        <div className="mt-11 flex flex-wrap gap-4">
-          <Button label="Shop now" iconURL={arrowRight} />
-          <Button
-            label="Learn more"
-            backgroundColor="bg-white"
-            borderColor="border-slate-gray"
-            textColor="text-slate-gray"
-          />
+        <div className="mt-11">
+          <Button label="View details" />
         </div>
+      </div>
+
+      <div className="flex-1 flex justify-center items-center">
+        <img
+          src={shoe8}
+          alt="product detail"
+          width={570}
+          height={522}
+          className="object-contain"
+        />
       </div>
     </section>
   );
