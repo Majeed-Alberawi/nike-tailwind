@@ -1,8 +1,18 @@
-# React + Vite
+# Nike Tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project serves as a foundational setup for integrating React with Vite, focusing on a minimal configuration that supports Hot Module Replacement (HMR) and includes basic ESLint rules. The primary goal of building this website is to learn and implement Tailwind CSS effectively.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This template offers a streamlined environment to kickstart your React projects using Vite. It includes two official plugins that enable fast and efficient development:
+
+- **[@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md)**: Utilizes [Babel](https://babeljs.io/) to provide Fast Refresh, ensuring a smooth development experience.
+- **[@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc)**: Leverages [SWC](https://swc.rs/) for Fast Refresh, offering a modern alternative to Babel with faster build times.
+
+## Objective
+
+The primary purpose of this project is to facilitate learning and experimentation with Tailwind CSS. By integrating Tailwind into this React + Vite setup, you can explore its capabilities and build responsive, utility-first user interfaces efficiently.
+
+## Reference
+
+This website was built following the tutorial provided in [this video](https://youtu.be/tS7upsfuxmo?si=bpdPDFogHuF_PcCg).
